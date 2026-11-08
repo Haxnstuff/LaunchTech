@@ -1,7 +1,7 @@
 {
   "name": "launchtech",
   "productName": "LaunchTech",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "A local Windows launcher with automatic read-only app discovery",
   "private": true,
   "main": "electron/main.cjs",
