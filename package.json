@@ -1,0 +1,32 @@
+{
+  "name": "launchtech",
+  "productName": "LaunchTech",
+  "version": "0.4.5",
+  "description": "A local Windows launcher with automatic read-only app discovery",
+  "private": true,
+  "main": "electron/main.cjs",
+  "author": "Haxnstuff",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node scripts/start.cjs",
+    "test": "node --test test/*.test.cjs",
+    "test:desktop": "node scripts/smoke.cjs",
+    "package": "node scripts/package.cjs",
+    "installer": "node scripts/installer.cjs",
+    "audit:source": "node scripts/audit-source.cjs",
+    "icon": "node scripts/make-icon.cjs"
+  },
+  "overrides": {
+    "glob": "14.0.4",
+    "minimatch": "11.0.5"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "45.2.3",
+    "electron-builder": "26.18.0",
+    "playwright": "1.65.0"
+  }
+}

@@ -28,6 +28,10 @@ New games you install into those folders show up on their own.
 
 If a game is missing, open **Settings → Discovery → Skipped**, find its folder, and click **Pick file** to choose the `.exe` that starts it.
 
+## Source code
+
+The full source is in this repository so you can check exactly what LaunchTech does before installing it. It is for review only. See [LICENSE](LICENSE) for what that allows.
+
 ## License
 
-Free to use. You may not modify it, sell it, or present it as your own work. See [LICENSE](LICENSE).
+Free to use. You may not modify it, reuse its code, sell it, or present it as your own work. See [LICENSE](LICENSE).
